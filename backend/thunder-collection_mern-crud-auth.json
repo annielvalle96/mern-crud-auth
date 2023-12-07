@@ -1,0 +1,169 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "mern-crud-auth",
+    "dateExported": "2023-09-27T18:45:47.757Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "1825cdea-2324-4020-bc50-de26b6e90949",
+            "colId": "63b4b917-f9bd-4644-aa13-b8875a3b977c",
+            "containerId": "",
+            "name": "POST /register",
+            "url": "http://localhost:4000/api/register",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2023-09-20T18:00:16.664Z",
+            "modified": "2023-09-24T20:09:44.644Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"username\": \"anniel\",\n  \"email\": \"anniel@gmail.com\",\n  \"password\": \"anniel\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "677f87e5-fc25-496b-98a8-c619e5f9e2a3",
+            "colId": "63b4b917-f9bd-4644-aa13-b8875a3b977c",
+            "containerId": "",
+            "name": "POST /login",
+            "url": "http://localhost:4000/api/login",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2023-09-20T18:01:30.317Z",
+            "modified": "2023-09-24T20:19:33.439Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"email\": \"anniel@gmail.com\",\n  \"password\": \"anniel\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "8d6425d1-9df6-4839-a51e-290eb51f9ca2",
+            "colId": "63b4b917-f9bd-4644-aa13-b8875a3b977c",
+            "containerId": "",
+            "name": "POST /logout",
+            "url": "http://localhost:4000/api/logout",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2023-09-21T00:26:18.919Z",
+            "modified": "2023-09-21T00:26:40.123Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "c5fa8afb-7baa-40db-af09-0d9da78e2ffa",
+            "colId": "63b4b917-f9bd-4644-aa13-b8875a3b977c",
+            "containerId": "",
+            "name": "GET /profile",
+            "url": "http://localhost:4000/api/profile",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2023-09-21T00:34:20.206Z",
+            "modified": "2023-09-21T00:34:38.371Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "d87f8310-d0ad-467a-9207-78bf5d9a4058",
+            "colId": "63b4b917-f9bd-4644-aa13-b8875a3b977c",
+            "containerId": "",
+            "name": "GET /verify",
+            "url": "http://localhost:4000/api/verify",
+            "method": "GET",
+            "sortNum": 45000,
+            "created": "2023-09-24T20:47:38.419Z",
+            "modified": "2023-09-24T20:48:38.172Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "5ad5af2a-d7a9-497a-9c2d-11f675c43ec1",
+            "colId": "63b4b917-f9bd-4644-aa13-b8875a3b977c",
+            "containerId": "",
+            "name": "POST /tasks",
+            "url": "http://localhost:4000/api/tasks",
+            "method": "POST",
+            "sortNum": 50000,
+            "created": "2023-09-21T12:51:05.200Z",
+            "modified": "2023-09-22T23:20:23.561Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"title\": \"mi tercera tarea\",\n  \"description\": \"mi tercera tarea desde cero\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "9230a51b-0b8b-42bb-bed1-f98dd5fa9d3a",
+            "colId": "63b4b917-f9bd-4644-aa13-b8875a3b977c",
+            "containerId": "",
+            "name": "GET /tasks",
+            "url": "http://localhost:4000/api/tasks",
+            "method": "GET",
+            "sortNum": 70000,
+            "created": "2023-09-22T21:13:00.073Z",
+            "modified": "2023-09-22T21:50:34.716Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "23441780-878b-4507-9671-ffd3c9e88583",
+            "colId": "63b4b917-f9bd-4644-aa13-b8875a3b977c",
+            "containerId": "",
+            "name": "GET /tasks/:id",
+            "url": "http://localhost:4000/api/tasks/6510d21a7b85ac3c0de6c615",
+            "method": "GET",
+            "sortNum": 90000,
+            "created": "2023-09-22T21:48:13.383Z",
+            "modified": "2023-09-25T00:20:20.309Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "1f023b54-58ed-4074-b143-5a7dc228c921",
+            "colId": "63b4b917-f9bd-4644-aa13-b8875a3b977c",
+            "containerId": "",
+            "name": "DELETE /tasks/:id",
+            "url": "http://localhost:4000/api/tasks/650e0e8c638322e7b2ce365c",
+            "method": "DELETE",
+            "sortNum": 110000,
+            "created": "2023-09-22T21:51:59.143Z",
+            "modified": "2023-09-22T22:05:58.066Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "365047b3-88b4-4fdd-9a36-249c647ba49d",
+            "colId": "63b4b917-f9bd-4644-aa13-b8875a3b977c",
+            "containerId": "",
+            "name": "UPDATE /tasks/:id",
+            "url": "http://localhost:4000/api/tasks/650e0e213f75a6152333ed37",
+            "method": "PUT",
+            "sortNum": 120000,
+            "created": "2023-09-22T22:01:14.302Z",
+            "modified": "2023-09-22T22:04:38.016Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"title\": \"mi tarea actualizada\",\n  \"description\": \"mi tarea actualizada desde cero\"\n}",
+                "form": []
+            },
+            "tests": []
+        }
+    ]
+}
